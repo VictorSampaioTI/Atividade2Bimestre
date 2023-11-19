@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="site">
+        <h5>Paginas</h5>
+        <a href="Empresa.html">Pagina 2</a><br>
+        <a href="game.html">Pagina 3</a>
+    </div>
+    <div class="container mt-5">
+        <h2>Formulário</h2>
+            <div class="radios form-group">
+                <label>Sexo:</label>
+                <div class="RadioEdit">
+                    <input type="radio" class="RadioEdit-input" name="opcao" id="input1" value="input1">
+                    <label class="RadioEdit-label" for="input1">Masculino</label>
+                </div>
+                <div class="RadioEdit">
+                    <input type="radio" class="RadioEdit-input" name="opcao" id="input2" value="input2">
+                    <label class="RadioEdit-label" for="input2">Feminino</label>
+                </div>
+                <div class="RadioEdit">
+                    <input type="radio" class="RadioEdit-input" name="opcao" id="input3" value="input3">
+                    <label for="RadioEdit-label" form="input3">Prefiro não responder</label>
+                </div>
+            </div>
+            <div class="checkboxs form-group">
+                <label>Interesses:</label>
+                <div class="checkboxEdit">
+                    <input type="checkbox" class="checkboxEdit-input" id="checkbox1" value="checkbox1">
+                    <label class="checkboxEdit-label" for="checkbox1">Esportes</label>
+                </div>
+                <div class="checkboxEdit">
+                    <input type="checkbox" class="checkboxEdit-input" id="checkbox2" value="checkbox2">
+                    <label class="checkboxEdit-label" for="interesse2">Jogos</label>
+                </div>
+                <div class="checkboxEdit">
+                    <input type="checkbox" class="checkboxEdit-input" id="checkbox3" value="checkbox3">
+                    <label class="checkboxEdit-label" for="interesse2">Livros</label>
+                </div>
+                <div class="checkboxEdit">
+                    <input type="checkbox" class="checkboxEdit-input" id="checkbox4" value="checkbox4">
+                    <label class="checkboxEdit-label" for="interesse2">Estudos</label>
+                </div>
+                <div class="checkboxEdit">
+                    <input type="checkbox" class="checkboxEdit-input" id="checkbox5" value="checkbox5">
+                    <label class="checkboxEdit-label" for="interesse2">Tecnologia</label>
+                </div>
+            </div>
+            <div class="textos form-group">
+                <div class="textEdit">
+                    <label for="texto1">Nome:</label><br>
+                    <input type="text" id="texto1" class="form-control" placeholder="Nome">
+                  </div>
+                  <div class="textEdit">
+                    <label for="texto2">Email:</label>
+                    <input type="text" id="texto2" class="form-control" placeholder="Email">
+                  </div>                  
+            </div>
+            <div>
+                <div class="NumEdit">
+                    <label for="numero1">Idade:</label>
+                    <input type="number" id="numero1" class="form-control" placeholder="Número">
+                  </div>              
+                  <div class="NumEdit">
+                    <label for="numero2">Telefone:</label>
+                    <input type="number" id="numero2" class="form-control" placeholder="Número">
+                  </div>
+            </div>
+            <div class="button form-group">
+                 <button type="button" class="form-button">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <script src="meujava.js"></script>
+</body>
+</html>

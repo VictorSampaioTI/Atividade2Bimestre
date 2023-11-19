@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Meu Quiz</h1>
+    <div class="questao">
+      <p id="question-text">Pergunta?</p>
+      <div class="opcoes">
+        <button class="opcao" onclick="checkAnswer(this)">Opção 1</button>
+        <button class="opcao" onclick="checkAnswer(this)">Opção 2</button>
+        <button class="opcao" onclick="checkAnswer(this)">Opção 3</button>
+        <button class="opcao" onclick="checkAnswer(this)">Opção 4</button>
+      </div>
+    </div>
+    <p id="score">Pontuação: <span id="score-value">0</span></p>
+    <button id="enviar" onclick="nextQuestion()">Próxima</button>
+      <div class="site">
+        <h5>Paginas</h5>
+        <a class="Paginas" href="index.html">Pagina 1</a><br>
+        <a class="Paginas" href="Empresa.html">Pagina 2</a>
+      </div>
+  </div>
+  
+  <script src="game.js"></script>
+</body>
+</html>
